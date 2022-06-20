@@ -2,6 +2,6 @@
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-serv = Service(r"/home/rsudo/Downloads/geckodriver")
+serv = Service(r"PathToGeckoDriver")
 driver = webdriver.Firefox(service=serv)
 

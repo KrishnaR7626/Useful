@@ -17,6 +17,6 @@ sudo ufw allow 443/tcp
 sudo ufw enable
 
 sudo rkhunter -sk -c
-clamscan -r --bell --remove /
+sudo clamscan -r --bell --remove /
 
 echo "Finished"
